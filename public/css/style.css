@@ -1,0 +1,121 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --light-blue: #278fd1;
+    --blue: #053294;
+    --green: #76A553;
+    --light-green: #A9D28C;
+    --background: #eee;
+    --white: white;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background: var(--white);
+    border-radius: 0 0 50% 50%;
+    font-size: 5rem;
+}
+
+.header__img {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link {
+    text-decoration: none;
+    width: 8rem;
+    height: 8rem;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10%;
+    box-shadow: 1px 4px 5px 3px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
+    color: var(--light-blue);
+}
+
+.header__link:hover {
+    box-shadow: none;
+}
+
+.icon__div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    width: 2.4rem;
+    height: 3.2rem;
+    color: var(--light-blue);
+    background: var(--light-blue);
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+}
+
+.card1 {
+    rotate: -45deg;
+    position: absolute;
+    left: 1rem;
+}
+
+.card2 {
+    margin-left: 2rem;
+}
+
+.icon__text {
+    font-size: 1.5rem;
+}
+
+main{
+    background: var(--background);
+}
+
+.tile__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem 0 5rem;
+}
+
+.tile__article {
+    width: 40rem; 
+    height: 40rem;
+    border-radius: 5%;
+}
+
+.tile__link {
+    width: 100%;
+    height: 100%;
+}
+
+.tile__img {
+    width: 100%; 
+    height: 100%;
+}
+
+.cta__section {
+    padding: 5rem 5rem 0 5rem;
+}
