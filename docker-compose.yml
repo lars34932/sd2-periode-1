@@ -34,7 +34,7 @@ services:
     image: mariadb:latest
     environment:
       MYSQL_DATABASE: website
-      MYSQL_USER: db_user
+      MYSQL_USER: website_user
       MYSQL_PASSWORD: St3rkW8woord!
       MYSQL_ROOT_PASSWORD: 4dy5qwturag#!sie
     ports:

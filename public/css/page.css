@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --light-blue: #278fd1;
+    --blue: #053294;
+    --green: #76A553;
+    --light-green: #A9D28C;
+    --background: #eee;
+    --white: white;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+main{
+    background: var(--background);
+    padding: 5rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.page__title{
+    font-size: 6rem;
+}
+
+.page__section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    font-size: 3rem;
+}
+
+.section__div{
+    width: calc(50% - 2.5rem);
+    height: calc(50% - 2.5rem);
+}
+
+.section__div > img{
+    width: 100%;
+    height: 100%;
+}
+
+.sdg__img{
+    border-radius: 5rem;
+}
