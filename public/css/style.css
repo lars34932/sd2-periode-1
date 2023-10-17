@@ -47,5 +47,27 @@ main{
 }
 
 .cta__section {
-    padding: 5rem 5rem 0 5rem;
+    padding: 5rem 5rem /*temp (varander naar 0)*/ 5rem /*temp*/ 5rem;
+}
+
+.cta__article{
+    display: flex;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta__text{
+    font-size: 3rem;
+}
+
+.cta__button{
+    border: none;
+    background: var(--light-blue);
+    border-radius: 1rem;
+    font-size: 3rem;
+    padding: 1rem;
+    color: var(--white);
 }
