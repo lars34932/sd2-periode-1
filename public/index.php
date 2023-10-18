@@ -1,7 +1,7 @@
 <?php 
-    include("../source/views/tiles.php");
-    include("../source/views/generateHeader.php");
-    include("../source/views/generateCta.php");
+    require("../source/views/tiles.php");
+    require("../source/views/generateHeader.php");
+    require("../source/views/generateCta.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,11 +14,9 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <?php
-            makeHeader();
-        ?>
-    </header>
+    <?php
+        makeHeader();
+    ?>
     <main>
         <section class="tile__section">
             <?php
@@ -28,8 +26,7 @@
         <?php
             makeCta();
         ?>
-        <section class="cta__section">
-        </section>
+        
     </main>
 </body>
 </html>

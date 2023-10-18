@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --light-blue: #278fd1;
+    --blue: #053294;
+    --green: #76A553;
+    --light-green: #A9D28C;
+    --background: #eee;
+    --white: white;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+main{
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.sdg{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.sdg__img{
+    width: 100%;
+    height: 100%;
+}
+
+.invis__sdg {
+    width: 20rem;
+    height: 20rem;
+    background: transparent;
+}

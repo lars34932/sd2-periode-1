@@ -1,6 +1,7 @@
 <?php
-include("../source/views/generatePage.php");
-include("../source/views/generateHeader.php");
+    require("../source/views/generatePage.php");
+    require("../source/views/generateHeader.php");
+    require("../source/views/generateCta.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,14 +13,15 @@ include("../source/views/generateHeader.php");
     <title>sdg <?php echo $_GET['sdg'];?></title>
 </head>
 <body>
-    <header>
-        <?php
-            makeHeader();
-        ?>
-    </header>
+    <?php
+        makeHeader();
+    ?>
     <main>
         <?php
-        createPage();
+            makePage();
+        ?>
+        <?php
+            makeCta();
         ?>
     </main>
 </body>
