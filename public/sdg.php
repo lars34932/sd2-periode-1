@@ -9,7 +9,7 @@ require("../source/views/generateSdg.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sdg.css">
     <link rel="stylesheet" href="css/header.css">
-    <title>Document</title>
+    <title>SDG overview</title>
 </head>
 <body>
     <?php

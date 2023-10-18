@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/header.css">
-    <title>sdg <?php echo $_GET['sdg'];?></title>
+    <title>SDG <?php echo $_GET['sdg'];?></title>
 </head>
 <body>
     <?php
