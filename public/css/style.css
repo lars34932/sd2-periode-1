@@ -71,3 +71,7 @@ main{
     padding: 1rem;
     color: var(--white);
 }
+
+.cta__button:hover{
+    cursor: pointer;
+}
