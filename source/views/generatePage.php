@@ -20,12 +20,12 @@ function makePage() {
 
     while ($row = $result->fetch_assoc()) {
         $id = $row['ID'];
-            $titel = $row['Titel'];
-            $tekst1 = $row['Tekst1'];
-            $tekst2 = $row['Tekst2'];
-            $path1 = $row['imgPath1'];
-            $path2 = $row['imgPath2'];
-            $kleur = $row['kleur'];
+        $titel = $row['Titel'];
+        $tekst1 = $row['Tekst1'];
+        $tekst2 = $row['Tekst2'];
+        $path1 = $row['imgPath1'];
+        $path2 = $row['imgPath2'];
+        $kleur = $row['kleur']; 
     }
 
     $stmt->close();
