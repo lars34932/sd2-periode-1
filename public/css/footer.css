@@ -1,0 +1,32 @@
+footer {
+    height: 20rem;
+    width: 100%;
+    background:var(--white) ;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: #2fabf8;
+}
+
+.footer--text{
+    padding-bottom:2rem;
+}
+
+.footer--hover{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #278fd1;
+}
+
+.footer--hover:hover{
+    text-decoration: underline;
+}
+
+.footer--gap{
+    padding-bottom:2rem;
+}

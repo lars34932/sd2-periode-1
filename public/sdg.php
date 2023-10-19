@@ -1,6 +1,7 @@
 <?php
 require("../source/views/generateHeader.php");
 require("../source/views/generateSdg.php");
+require("../source/views/generateFooter.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +10,7 @@ require("../source/views/generateSdg.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sdg.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>SDG overview</title>
 </head>
 <body>
@@ -21,5 +23,8 @@ require("../source/views/generateSdg.php");
         ?>
         <div class="invis__sdg"></div>
     </main>
+    <?php   
+        makeFooter();
+    ?>
 </body>
 </html>
