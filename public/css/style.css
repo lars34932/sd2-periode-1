@@ -27,7 +27,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 5rem 0 5rem;
+    padding: 5rem 12rem 0 12rem;
 }
 
 .tile__article {
@@ -75,3 +75,37 @@ main{
 .cta__button:hover{
     cursor: pointer;
 }
+
+footer {
+    height: 20rem;
+    width: 100%;
+    background:var(--white) ;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: #2fabf8;
+}
+
+.footer--text{
+    padding-bottom:2rem;
+}
+
+.footer--hover{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #278fd1;
+}
+
+.footer--hover:hover{
+    text-decoration: underline;
+}
+
+.footer--gap{
+    padding-bottom:2rem;
+}
+
