@@ -45,3 +45,7 @@ main{
     width: 100%; 
     height: 100%;
 }
+
+.cta__section{
+    padding: 5rem 12rem;
+}

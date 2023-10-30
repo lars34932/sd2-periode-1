@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cta.css">
     <title>SDG <?php echo $_GET['sdg'];?></title>
+    <link rel=icon type="img/x-icon" href="img/NVVN.png">
 </head>
 <body>
     <?php
