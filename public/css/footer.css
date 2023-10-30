@@ -1,33 +1,32 @@
 footer {
     width: 100%;
     max-width: calc(100vw - 2rem);
-    background:var(--white) ;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-top: 2rem;
     font-size: 3rem;
 }
 
-footer div{
-    display: flex;
-    justify-content: center;
-}
-
-footer section{
+.footer__section{
     display: flex;
     align-items: center;
     justify-content: center;
     background: #278fd1;
     padding-top: 1rem;
+    width: 100%;
 }
 
-footer section p {
+.footer__section p {
     font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
     color: white;
     opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -48,6 +47,7 @@ footer article div{
 }
 .footer--text{
     padding-bottom:2rem;
+    width: 100%;
 }
 
 .footer--hover{

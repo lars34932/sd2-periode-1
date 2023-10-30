@@ -19,6 +19,14 @@ html {
     font-family: sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    gap: 1rem;
+}
+
 main{
     background: var(--background);
     display: flex;
@@ -27,6 +35,8 @@ main{
     flex-wrap: wrap;
     gap: 5rem;
     padding: 5rem;
+    width: calc(100% - 6rem);
+    border-radius: 4rem;
 }
 
 .sdg{
