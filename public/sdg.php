@@ -12,6 +12,7 @@ require("../source/views/generateFooter.php");
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>SDG overview</title>
+    <link rel=icon type="img/x-icon" href="img/NVVN.png">
 </head>
 <body>
     <?php

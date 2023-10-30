@@ -10,13 +10,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/cta.css">
     <link rel="stylesheet" href="css/Over_SDGs.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6c294d23a1.js" crossorigin="anonymous"></script>
     <title>SDG homepage</title>
+    <link rel=icon type="img/x-icon" href="img/NVVN.png">
 </head>
 <body>
     <?php
