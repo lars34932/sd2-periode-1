@@ -1,0 +1,226 @@
+.Over_SDGs{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    width: calc(25% - 2.25rem);
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50rem;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+main div{
+    display: flex;
+    gap: 3rem;
+    width: calc(100% - 6rem);
+    flex-wrap: wrap;
+}
+
+.Over_SDGs__two{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    width: calc(50% - 1.5rem);
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50rem;
+}
+
+.one{
+    background: rgb(195,195,195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 6%, rgba(222,222,222,1) 46%);
+}
+
+
+.two{
+    background: rgb(39,143,209);
+    background: linear-gradient(335deg, rgba(39,143,209,1) 0%, rgba(5,50,148,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10rem;
+    gap: 3rem;
+    position: relative;
+}
+
+.three{
+    background: rgb(39,143,209);
+    background: linear-gradient(335deg, rgba(39,143,209,1) 0%, rgba(5,50,148,1) 100%);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 7rem;
+    padding-top: 10rem;
+    gap: 3rem;
+}
+
+.three p{
+    width: 70%;
+    color: lightgray;
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: .8;
+}
+
+.Wheel-SDGs{
+    width: 80%;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.Wheel-SDGs:hover{
+    scale: 1.1;
+}
+
+
+.goals{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10rem;
+    flex-direction: column;
+    gap: 3rem;
+    text-decoration: none;
+}
+.Over_SDGs__two h2,
+.Over_SDGs h2{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    opacity: .7;
+}
+
+.goals_h2{
+    color: #76A553 !important;
+}
+
+.play{
+    width: 15rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    background: white;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.play:hover{
+    background: rgba(40, 46, 51, 0.3)
+}
+
+.playsvg{
+    fill: rgb(39,143,209);
+}
+
+.earth{
+    width: 150%;
+    position: absolute;
+    bottom: -20rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .Over_SDGs{
+        height: 35rem;
+    }
+    .Over_SDGs__two{
+        height: 35rem;
+    }
+    .two{
+        padding-top: 4rem;
+    }
+    .goals{
+        padding-top: 4rem;
+        gap: .5rem;
+    }
+    .three{
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .Over_SDGs{
+        width: calc(50% - 1.5rem);
+    }
+    .Over_SDGs__two{
+        width: 100%;
+    }
+    
+    .Over_SDGs{
+        height: 40rem;
+    }
+    .Over_SDGs__two{
+        height: 40rem;
+    }
+
+    .earth{
+        bottom: -40rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .Over_SDGs{
+        height: 30rem;
+    }
+    .Over_SDGs__two{
+        height: 30rem;
+    }
+
+    .earth{
+        bottom: -30rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Over_SDGs{
+        width: 100%;
+    }
+    .Over_SDGs__two{
+        width: 100%;
+    }
+    .Over_SDGs{
+        height: 60rem;
+    }
+    .Over_SDGs__two{
+        height: 60rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Over_SDGs{
+        height: 50rem;
+    }
+    .Over_SDGs__two{
+        height: 50rem;
+    }
+
+    .earth{
+        bottom: -30rem;
+    }
+
+    footer div{
+        flex-direction: column;
+        gap: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Over_SDGs{
+        height: 35rem;
+    }
+    .Over_SDGs__two{
+        height: 35rem;
+    }
+
+    .earth{
+        bottom: -25rem;
+    }
+}

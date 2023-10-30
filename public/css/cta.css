@@ -1,25 +1,34 @@
 .cta__section {
-    padding: 5rem 5rem /*temp (varander naar 0)*/ 5rem /*temp*/ 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 4rem;
 }
 
 .cta__article{
     display: flex;
-    background: var(--white);
     padding: 2rem;
     border-radius: 1rem;
     justify-content: space-between;
     align-items: center;
+    width: calc(100% - 4rem);
 }
 
 .cta__text{
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(32, 27, 27);
+    opacity: .7;
 }
 
 .cta__button{
+    width: 15rem;
     border: none;
-    background: var(--light-blue);
-    border-radius: 1rem;
-    font-size: 3rem;
+    background: var(--green);
+    border-radius: 4rem;
+    font-size: 2rem;
     padding: 1rem;
     color: var(--white);
 }
