@@ -60,3 +60,14 @@ body{
     height: 100%;
     border-radius: 5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .page__section{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+}

@@ -197,9 +197,6 @@ main div{
     .Over_SDGs{
         height: 50rem;
     }
-    .Over_SDGs__two{
-        height: 50rem;
-    }
 
     .earth{
         bottom: -30rem;
@@ -214,9 +211,6 @@ main div{
 
 @media only screen and (max-width: 450px) {
     .Over_SDGs{
-        height: 35rem;
-    }
-    .Over_SDGs__two{
         height: 35rem;
     }
 
