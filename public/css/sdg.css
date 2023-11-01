@@ -14,6 +14,8 @@
     --white: white;
 }
 
+
+
 html {
     font-size: 62.5%;
     font-family: sans-serif;
@@ -38,6 +40,8 @@ main{
     width: calc(100% - 6rem);
     border-radius: 4rem;
 }
+
+
 
 .sdg{
     width: 20rem;

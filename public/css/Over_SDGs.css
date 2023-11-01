@@ -30,6 +30,8 @@ main div{
     height: 50rem;
 }
 
+
+
 .one{
     background: rgb(195,195,195);
     background: linear-gradient(90deg, rgba(195,195,195,1) 6%, rgba(222,222,222,1) 46%);
@@ -65,6 +67,8 @@ main div{
     font-weight: 700;
     opacity: .8;
 }
+
+
 
 .Wheel-SDGs{
     width: 80%;
@@ -124,6 +128,8 @@ main div{
     position: absolute;
     bottom: -20rem;
 }
+
+
 
 @media only screen and (max-width: 1300px) {
     .Over_SDGs{
