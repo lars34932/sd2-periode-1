@@ -30,6 +30,8 @@ main div{
     height: 50rem;
 }
 
+
+
 .one{
     background: rgb(195,195,195);
     background: linear-gradient(90deg, rgba(195,195,195,1) 6%, rgba(222,222,222,1) 46%);
@@ -66,6 +68,8 @@ main div{
     opacity: .8;
 }
 
+
+
 .Wheel-SDGs{
     width: 80%;
     transition: .2s;
@@ -88,6 +92,7 @@ main div{
     gap: 3rem;
     text-decoration: none;
 }
+
 .Over_SDGs__two h2,
 .Over_SDGs h2{
     font-size: 2rem;
@@ -100,6 +105,8 @@ main div{
 .goals_h2{
     color: #76A553 !important;
 }
+
+
 
 .play{
     width: 15rem;
@@ -124,6 +131,8 @@ main div{
     position: absolute;
     bottom: -20rem;
 }
+
+
 
 @media only screen and (max-width: 1300px) {
     .Over_SDGs{

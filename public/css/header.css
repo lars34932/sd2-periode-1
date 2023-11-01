@@ -38,6 +38,9 @@ header div{
     font-size: 2rem;
     font-weight: 600;
 }
+
+
+
 .activ{
     color: var(--light-blue);
 }
@@ -56,6 +59,8 @@ header div{
 .header__link:hover .header__icon {
     fill: var(--light-blue);
 }
+
+
 
 .header__icon{
     width: 2rem;

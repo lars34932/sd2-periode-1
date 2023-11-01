@@ -4,6 +4,7 @@
     require("../source/views/generateCta.php");
     require("../source/views/generateFooter.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
