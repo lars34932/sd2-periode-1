@@ -3,6 +3,7 @@ require("../source/views/generateHeader.php");
 require("../source/views/generateSdg.php");
 require("../source/views/generateFooter.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

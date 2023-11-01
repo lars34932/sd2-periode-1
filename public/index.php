@@ -5,6 +5,7 @@
     require("../source/views/generateWatIsSdg.php");
     require("../source/views/generateFooter.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
