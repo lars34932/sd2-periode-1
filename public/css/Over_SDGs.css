@@ -92,6 +92,7 @@ main div{
     gap: 3rem;
     text-decoration: none;
 }
+
 .Over_SDGs__two h2,
 .Over_SDGs h2{
     font-size: 2rem;
@@ -104,6 +105,8 @@ main div{
 .goals_h2{
     color: #76A553 !important;
 }
+
+
 
 .play{
     width: 15rem;
