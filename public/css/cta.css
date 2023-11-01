@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     width: calc(100% - 4rem);
+    flex-wrap: wrap;
 }
 
 .cta__text{
@@ -35,4 +36,10 @@
 
 .cta__button:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .cta__section{
+        padding-left: 0rem;
+    }
 }

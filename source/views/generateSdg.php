@@ -10,7 +10,7 @@ function makeSdg() {
 
         if ($stmt) {
 
-        $stmt->bind_param("i", $i);
+        $stmt->bind_param("i", $i); 
 
         $stmt->execute();
 

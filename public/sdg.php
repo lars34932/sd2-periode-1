@@ -22,7 +22,6 @@ require("../source/views/generateFooter.php");
         <?php
             makeSdg();
         ?>
-        <div class="invis__sdg"></div>
     </main>
     <?php   
         makeFooter();
