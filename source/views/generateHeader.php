@@ -18,5 +18,4 @@ function makeHeader() {
         <p class="icon__text">sdgs</p>
     </a>
     </div> 
-</header>';
-}
+</header>';}
