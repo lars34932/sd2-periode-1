@@ -20,5 +20,4 @@ echo '            <div>
 </a>
 
 </section>
-</div>';
-}
+</div>';}

@@ -1,6 +1,5 @@
 <?php
 function makePage() {
-
     require_once("../source/connect.php");
 
     $connection = db_connect();
@@ -28,7 +27,6 @@ function makePage() {
         $kleur = $row['kleur']; 
     }
 
-    $stmt->close();
     } else {
 
     die("Error in SQL statement: " . $connection->error);
@@ -83,8 +81,5 @@ function makePage() {
                 </div>
                 </section>';
             }
-                
-
-    $connection->close();
 }
 

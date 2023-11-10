@@ -34,8 +34,4 @@ function makeTiles() {
             </article>';
         }
     }
-
-    $stmt->close();
-    $connection->close();
 }
-?>
